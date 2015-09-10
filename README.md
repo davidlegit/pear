@@ -1,7 +1,7 @@
 # davidlegit's PEAR Channel Server
 
 Registering the channel:
-> pear channel-discover davidlegit.github.com/pear
+> pear channel-discover davidlegit.github.io/pear
 
 Listing available packages:
 > pear remote-list -c davidlegit
@@ -14,4 +14,4 @@ Installing a specific version/stability:
 > pear install davidlegit/package_name-beta
 
 Receiving updates via a feed:
-> http://davidlegit.github.com/pear/feed.xml
+> http://davidlegit.github.io/pear/feed.xml
