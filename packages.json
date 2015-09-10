@@ -1,1 +1,50 @@
-[]
+{
+    "pear-davidlegit\/test_helpers": {
+        "versions": {
+            "1.1.0": {
+                "name": "pear-davidlegit\/test_helpers",
+                "description": "An extension for the PHP Interpreter to ease testing of PHP code.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/davidlegit.github.io\/pear\/get\/test_helpers-1.1.0.tgz"
+                },
+                "version": "1.1.0",
+                "time": "2015-09-10T10:31:31+02:00",
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@php.net",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Johannes Schlueter",
+                        "email": "johannes@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "name": "pear-davidlegit\/test_helpers",
+        "description": "An extension for the PHP Interpreter to ease testing of PHP code.",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@php.net",
+                "homepage": ""
+            },
+            {
+                "name": "Johannes Schlueter",
+                "email": "johannes@php.net",
+                "homepage": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0                              http://pear.php.net/dtd/tasks-1.0.xsd                              http://pear.php.net/dtd/package-2.0                              http://pear.php.net/dtd/package-2.0.xsd">
+ <name>test_helpers</name>
+ <channel>davidlegit.github.io/pear</channel>
+ <summary>An extension for the PHP Interpreter to ease testing of PHP code.</summary>
+ <description>An extension for the PHP Interpreter to ease testing of PHP code.</description>
+ <lead>
+  <name>Sebastian Bergmann</name>
+  <user>sebastian</user>
+  <email>sebastian@php.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Johannes Schlueter</name>
+  <user>johannes</user>
+  <email>johannes@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2015-09-10</date>
+ <time>10:31:31</time>
+ <version>
+  <release>1.1.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>BSD License</license>
+ <notes>
+http://github.com/sebastianbergmann/php-test-helpers
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="11093ff1b542548ee7cd7dcb0c06b2fe" name="tests/set_exit_overload.phpt" role="test" />
+   <file md5sum="3c11ad75e6bd491f93d40890f5add473" name="tests/unset_exit_overload.phpt" role="test" />
+   <file md5sum="b6f713ec984952b657268d7f86d4d075" name="tests/set_new_overload_closure.phpt" role="test" />
+   <file md5sum="715bde44dca40597ad07a6f8d82c1964" name="tests/set_new_overload_error_non_existing_class.phpt" role="test" />
+   <file md5sum="5162ff1bc8405281c9eb80257cacd965" name="tests/set_new_overload_error_return_non_existing_class.phpt" role="test" />
+   <file md5sum="4cf23784889321623bffec6eb534ace7" name="tests/set_new_overload_error_undefined_callback.phpt" role="test" />
+   <file md5sum="ef1da401278b74fa909abe2fc22a0455" name="tests/set_new_overload_function.phpt" role="test" />
+   <file md5sum="9a659a4e16ed834b6e0a4509ee382c06" name="tests/set_new_overload_functor.phpt" role="test" />
+   <file md5sum="ec65d4c6a7d995b70cfba63c653501b8" name="tests/set_new_overload_multiple.phpt" role="test" />
+   <file md5sum="dca52e35c33dd84c987aa7d8a3ef4800" name="tests/set_new_overload_non_static_method.phpt" role="test" />
+   <file md5sum="cdb6d1e78e845aaece3cb9336f294190" name="tests/set_new_overload_non_static_method_same_object.phpt" role="test" />
+   <file md5sum="52e45d34cf49e121f33dfb35f7b7bb5f" name="tests/set_new_overload_private_method.phpt" role="test" />
+   <file md5sum="7c657a0187f5aa88b031b5bd541a272e" name="tests/set_new_overload_static_method.phpt" role="test" />
+   <file md5sum="40d8fe73ba74a80b3cac438483f12aba" name="tests/set_new_overload_unset_reset.phpt" role="test" />
+   <file md5sum="54b005bb6c0feb22d89d6de9f880adc0" name="config.m4" role="src" />
+   <file md5sum="15277124873c8ad0afb3afc8c0a917d3" name="config.w32" role="src" />
+   <file md5sum="a958e6c2abcc8688afdb56c4b6fea05f" name="php_test_helpers.h" role="src" />
+   <file md5sum="51344d102d775b704a0248197f70d19d" name="README.markdown" role="doc" />
+   <file md5sum="7bf0439d2804c247c03eb7ccaf5b603d" name="test_helpers.c" role="src" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <providesextension>test_helpers</providesextension>
+ <extsrcrelease />
+</package>
