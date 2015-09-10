@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <server>
-	<name>davidlegit.github.com/pear</name>
+	<name>davidlegit.github.io/pear</name>
 	<summary>davidlegit's PEAR Channel Server</summary>
 	<alias>davidlegit</alias>
-	<url>http://davidlegit.github.com/pear</url>
+	<url>http://davidlegit.github.io/pear</url>
 </server>
